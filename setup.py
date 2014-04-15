@@ -23,7 +23,7 @@ setup(
         ],
         entry_points = {
             'console_scripts': [
-                'webfactionctl = webfactionctl:main'
+                'webfactionctl = webfaction.webfactionctl:main'
             ]
         }
 )
